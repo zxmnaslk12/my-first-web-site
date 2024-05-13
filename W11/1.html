@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>파스타</h1>
+        <h2>파스타의 면 종류</h2>
+        <h3>숏 파스타</h3>
+        
+        <script>        
+          const pokemons = ["펜네", "리가토니", "마카로니", "푸실리", "파르팔레",
+          "쿠스쿠스","프레콜라","오르초","루오테","오레키에테"];  
+          const imgList = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg",
+          "6.jpeg","7.jpeg","8.avif","9.jpeg","10.jpeg"];
+          var i = 0;
+      while (i < pokemons.length) {
+        document.write('<li><a href="https://ko.wikipedia.org/wiki/' + pokemons[i] + '">' + pokemons[i] + '</li>');
+        i = i + 1;
+        document.write('<img src='+imgList[i]+'>');
+      }
+        </script>
+        
+</body>
+</html>
